@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <filter id="b"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="3" seed="4" result="n"/>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <rect width="64" height="64" fill="#eff2ed"/>
+  <g filter="url(#b)" opacity=".85">
+    <circle cx="26" cy="27" r="17" fill="#2a6ea6" opacity=".75"/>
+    <circle cx="39" cy="38" r="16" fill="#b8446e" opacity=".65"/>
+  </g>
+</svg>
